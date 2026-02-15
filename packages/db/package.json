@@ -9,13 +9,19 @@
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
-    "check-types": "tsc --noEmit"
+    "check-types": "tsc --noEmit",
+    "migrate:up": "migrate-mongo up",
+    "migrate:down": "migrate-mongo down",
+    "migrate:status": "migrate-mongo status",
+    "migrate:create": "migrate-mongo create"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
+    "@types/migrate-mongo": "^10.0.6",
     "@types/node": "^22.15.3",
     "eslint": "^9.39.1",
+    "migrate-mongo": "^14.0.7",
     "typescript": "5.9.2"
   },
   "dependencies": {
