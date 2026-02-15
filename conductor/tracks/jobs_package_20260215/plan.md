@@ -22,7 +22,7 @@
     - [x] Run tests and verify success
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md) f93adac
 
-## Phase 3: Integration into `apps/web`
+## Phase 3: Integration into `apps/web` [checkpoint: 5f219d4]
 - [x] Task: Link `@repo/jobs` to `apps/web` b25ac79
     - [x] Add `@repo/jobs: "*"` to `apps/web/package.json` dependencies
     - [x] Run `bun install`
@@ -32,4 +32,4 @@
 - [x] Task: Final Verification 9748a7b
     - [x] Run `bun run check-types` in `apps/web`
     - [x] (Optional) Trigger a test run of `process-video` via the UI or a script to ensure connectivity
-- [~] Task: Conductor - User Manual Verification 'Phase 3: Integration' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3: Integration' (Protocol in workflow.md) 5f219d4
