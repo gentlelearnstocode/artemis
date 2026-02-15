@@ -15,6 +15,7 @@
     "@google/generative-ai": "^0.24.1",
     "@repo/ui": "*",
     "@repo/db": "*",
+    "@repo/jobs": "*",
     "@trigger.dev/sdk": "^4.3.3",
     "@vercel/blob": "^2.2.0",
     "ai": "^6.0.86",
