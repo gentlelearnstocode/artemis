@@ -29,7 +29,7 @@
 - [x] Task: Refactor existing tasks 533aec6
     - [x] Update `apps/web/src/jobs/process-video.ts` to use `createTask`
     - [x] Verify that types for payload and return value are correctly inferred
-- [~] Task: Final Verification
-    - [ ] Run `bun run check-types` in `apps/web`
-    - [ ] (Optional) Trigger a test run of `process-video` via the UI or a script to ensure connectivity
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: Integration' (Protocol in workflow.md)
+- [x] Task: Final Verification 9748a7b
+    - [x] Run `bun run check-types` in `apps/web`
+    - [x] (Optional) Trigger a test run of `process-video` via the UI or a script to ensure connectivity
+- [~] Task: Conductor - User Manual Verification 'Phase 3: Integration' (Protocol in workflow.md)
