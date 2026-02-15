@@ -5,10 +5,10 @@
     - [x] Create `packages/jobs/package.json` with `@repo/jobs` name and necessary peer dependencies
     - [x] Create `packages/jobs/tsconfig.json` extending `@repo/typescript-config/base.json`
     - [x] Create `packages/jobs/src/index.ts` as the entry point
-- [~] Task: Install dependencies
-    - [ ] Add `@trigger.dev/sdk` to `packages/jobs/package.json`
-    - [ ] Run `bun install` to link the new package
-- [ ] Task: Conductor - User Manual Verification 'Phase 1: Package Scaffolding' (Protocol in workflow.md)
+- [x] Task: Install dependencies 68de7b9
+    - [x] Add `@trigger.dev/sdk` to `packages/jobs/package.json`
+    - [x] Run `bun install` to link the new package
+- [~] Task: Conductor - User Manual Verification 'Phase 1: Package Scaffolding' (Protocol in workflow.md)
 
 ## Phase 2: Implementation of `createTask` Factory
 - [ ] Task: Define `createTask` interface and unit tests (Red Phase)
