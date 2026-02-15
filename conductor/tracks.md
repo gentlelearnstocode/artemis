@@ -9,5 +9,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [ ] **Track: Trigger.dev Utility Package (@repo/jobs)**
+- [x] **Track: Trigger.dev Utility Package (@repo/jobs)**
   *Link: [./tracks/jobs_package_20260215/](./tracks/jobs_package_20260215/)*

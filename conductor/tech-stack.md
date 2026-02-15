@@ -12,7 +12,7 @@
 - **UI Components:** shadcn/ui
 
 ## Backend & Infrastructure
-- **Background Jobs:** Trigger.dev v3
+- **Background Jobs:** Trigger.dev v3 (via `@repo/jobs` utility package)
 - **Database:** MongoDB (via `@repo/db` package)
 - **Storage:** Vercel Blob
 - **Hosting:** Vercel
