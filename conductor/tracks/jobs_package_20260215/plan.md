@@ -1,11 +1,11 @@
 # Implementation Plan: Trigger.dev Utility Package (@repo/jobs)
 
 ## Phase 1: Package Scaffolding
-- [ ] Task: Initialize `packages/jobs` directory and base configuration
-    - [ ] Create `packages/jobs/package.json` with `@repo/jobs` name and necessary peer dependencies
-    - [ ] Create `packages/jobs/tsconfig.json` extending `@repo/typescript-config/base.json`
-    - [ ] Create `packages/jobs/src/index.ts` as the entry point
-- [ ] Task: Install dependencies
+- [x] Task: Initialize `packages/jobs` directory and base configuration df189e2
+    - [x] Create `packages/jobs/package.json` with `@repo/jobs` name and necessary peer dependencies
+    - [x] Create `packages/jobs/tsconfig.json` extending `@repo/typescript-config/base.json`
+    - [x] Create `packages/jobs/src/index.ts` as the entry point
+- [~] Task: Install dependencies
     - [ ] Add `@trigger.dev/sdk` to `packages/jobs/package.json`
     - [ ] Run `bun install` to link the new package
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Package Scaffolding' (Protocol in workflow.md)
