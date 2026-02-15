@@ -1,6 +1,6 @@
 # Implementation Plan: Trigger.dev Utility Package (@repo/jobs)
 
-## Phase 1: Package Scaffolding
+## Phase 1: Package Scaffolding [checkpoint: 47c25d5]
 - [x] Task: Initialize `packages/jobs` directory and base configuration df189e2
     - [x] Create `packages/jobs/package.json` with `@repo/jobs` name and necessary peer dependencies
     - [x] Create `packages/jobs/tsconfig.json` extending `@repo/typescript-config/base.json`
@@ -8,7 +8,7 @@
 - [x] Task: Install dependencies 68de7b9
     - [x] Add `@trigger.dev/sdk` to `packages/jobs/package.json`
     - [x] Run `bun install` to link the new package
-- [~] Task: Conductor - User Manual Verification 'Phase 1: Package Scaffolding' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 1: Package Scaffolding' (Protocol in workflow.md) 47c25d5
 
 ## Phase 2: Implementation of `createTask` Factory
 - [ ] Task: Define `createTask` interface and unit tests (Red Phase)
