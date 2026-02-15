@@ -15,7 +15,7 @@ describe("createTask", () => {
       },
     };
 
-    const result = createTask(options);
+    const result = createTask(options) as any;
 
     expect(result.retry).toBeDefined();
     expect(result.retry.maxAttempts).toBe(3);
@@ -32,7 +32,7 @@ describe("createTask", () => {
       },
     };
 
-    const result = createTask(options);
+    const result = createTask(options) as any;
 
     expect(result.retry.maxAttempts).toBe(5);
   });
