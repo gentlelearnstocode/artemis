@@ -10,7 +10,7 @@
     - [x] Run `bun install` to link the new package
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Package Scaffolding' (Protocol in workflow.md) 47c25d5
 
-## Phase 2: Implementation of `createTask` Factory
+## Phase 2: Implementation of `createTask` Factory [checkpoint: f93adac]
 - [x] Task: Define `createTask` interface and unit tests (Red Phase) a2de556
     - [x] Create `packages/jobs/src/factory.test.ts`
     - [x] Define expected behavior for default retries and overrides
@@ -20,10 +20,10 @@
     - [x] Ensure proper type forwarding from `@trigger.dev/sdk/v3`
     - [x] Export `createTask` from `packages/jobs/src/index.ts`
     - [x] Run tests and verify success
-- [~] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Implementation' (Protocol in workflow.md) f93adac
 
 ## Phase 3: Integration into `apps/web`
-- [ ] Task: Link `@repo/jobs` to `apps/web`
+- [~] Task: Link `@repo/jobs` to `apps/web`
     - [ ] Add `@repo/jobs: "*"` to `apps/web/package.json` dependencies
     - [ ] Run `bun install`
 - [ ] Task: Refactor existing tasks
