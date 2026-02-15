@@ -26,10 +26,10 @@
 - [x] Task: Link `@repo/jobs` to `apps/web` b25ac79
     - [x] Add `@repo/jobs: "*"` to `apps/web/package.json` dependencies
     - [x] Run `bun install`
-- [~] Task: Refactor existing tasks
-    - [ ] Update `apps/web/src/jobs/process-video.ts` to use `createTask`
-    - [ ] Verify that types for payload and return value are correctly inferred
-- [ ] Task: Final Verification
+- [x] Task: Refactor existing tasks 533aec6
+    - [x] Update `apps/web/src/jobs/process-video.ts` to use `createTask`
+    - [x] Verify that types for payload and return value are correctly inferred
+- [~] Task: Final Verification
     - [ ] Run `bun run check-types` in `apps/web`
     - [ ] (Optional) Trigger a test run of `process-video` via the UI or a script to ensure connectivity
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: Integration' (Protocol in workflow.md)
