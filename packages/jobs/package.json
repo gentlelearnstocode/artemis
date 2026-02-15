@@ -18,6 +18,9 @@
     "eslint": "^9.39.1",
     "typescript": "5.9.2"
   },
+  "dependencies": {
+    "@trigger.dev/sdk": "^4.3.3"
+  },
   "peerDependencies": {
     "@trigger.dev/sdk": "^4.3.3"
   }
